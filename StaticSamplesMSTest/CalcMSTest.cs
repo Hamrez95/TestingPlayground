@@ -1,0 +1,22 @@
+﻿using Microsoft.CodeCoverage.Core.Reports.Cobertura;
+using StaticSamples;
+
+namespace StaticSamplesMSTest
+{
+    [TestClass]
+    public sealed class CalcMSTest
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            //Arrange
+            Calculator calculator = new Calculator();
+
+            //Act
+            int resault = calculator.Sum(10, 20);
+
+            //Assert
+            Assert.AreEqual(30 , resault);
+        }
+    }
+}
