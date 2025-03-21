@@ -6,5 +6,10 @@
         {
             return a + b;
         }
+
+        public bool Is_Number_Odd(int a)
+        {
+            return a % 2 != 0;
+        }
     }
 }
