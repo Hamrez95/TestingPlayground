@@ -13,10 +13,11 @@ namespace StaticSamplesMSTest
             Calculator calculator = new Calculator();
 
             //Act
-            int resault = calculator.Sum(10, 20);
+            int result = calculator.Sum(10, 20);
 
             //Assert
-            Assert.AreEqual(30 , resault);
+            Assert.AreEqual(30 , result);
+            // always should write like this : (expected result , actual result)
         }
     }
 }
