@@ -7,7 +7,7 @@ namespace StaticSamplesMSTest
     public sealed class CalcMSTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void AddNumbers_InputTwoInt_GetCorrectAddition()
         {
             //Arrange
             Calculator calculator = new Calculator();
